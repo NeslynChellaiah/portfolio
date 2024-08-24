@@ -1,0 +1,16 @@
+:root {
+  --bg-primary: #f7efe5;
+  --bg-secondary: #e2bfd9;
+  --text-primary: #674188;
+  --text-secondary: #c8a1e0;
+  --font-color: #482c38;
+}
+
+* {
+  background-color: var(--bg-primary);
+  color: var(--font-color);
+}
+
+.heading {
+  color: var(--text-primary);
+}
