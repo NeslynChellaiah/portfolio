@@ -1,5 +1,12 @@
+import Navbar from "./navbar";
+import "./App.css";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
