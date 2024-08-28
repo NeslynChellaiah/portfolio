@@ -5,13 +5,19 @@ function Navbar() {
     <>
       <Nav className="justify-content-center" activeKey="/">
         <Nav.Item>
-          <Nav.Link>Me</Nav.Link>
+          <Nav.Link className="text-primary" href="#me">
+            Me
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>My Works</Nav.Link>
+          <Nav.Link className="text-primary" href="#works">
+            My Works
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>Contact Me</Nav.Link>
+          <Nav.Link className="text-primary" href="#contact">
+            Contact Me
+          </Nav.Link>
         </Nav.Item>
       </Nav>
     </>
