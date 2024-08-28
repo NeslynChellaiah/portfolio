@@ -1,16 +1,42 @@
 :root {
-  --bg-primary: #f7efe5;
-  --bg-secondary: #e2bfd9;
-  --text-primary: #674188;
-  --text-secondary: #c8a1e0;
+  --bg-primary: #f4f4f2;
+  --bg-secondary: #e8e8e8;
+  --text-primary: #495464;
+  --text-secondary: #bbbfca;
   --font-color: #482c38;
 }
 
 * {
-  background-color: var(--bg-primary);
-  color: var(--font-color);
+  box-sizing: border-box;
+}
+
+.bg-primary {
+  background-color: var(--bg-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--bg-secondary) !important;
 }
 
 .heading {
   color: var(--text-primary);
+}
+
+.text-primary {
+  color: var(--text-primary) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.main-container {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.main-container > section {
+  height: 100vh;
+  scroll-snap-align: start;
 }
