@@ -2,7 +2,7 @@ import Nav from "react-bootstrap/Nav";
 
 function Navbar() {
   return (
-    <>
+    <div className="fixed-top z-1">
       <Nav className="justify-content-center" activeKey="/">
         <Nav.Item>
           <Nav.Link className="text-primary" href="#me">
@@ -20,7 +20,7 @@ function Navbar() {
           </Nav.Link>
         </Nav.Item>
       </Nav>
-    </>
+    </div>
   );
 }
 
