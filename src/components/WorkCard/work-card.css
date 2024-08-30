@@ -1,0 +1,12 @@
+.icon {
+  height: 14px;
+  width: auto;
+  padding-bottom: 1px;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.icon-20 {
+  height: 20px !important;
+  width: auto;
+}
