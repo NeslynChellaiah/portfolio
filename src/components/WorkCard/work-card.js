@@ -13,7 +13,7 @@ function WorkCard({ project }) {
         <Card.Body>
           <Card.Title className="text-primary title">
             {(project?.title || "") + " "}
-            <a href={project?.demo} target="_blank">
+            <a href={project?.demo} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 className="icon text-primary"
@@ -21,7 +21,7 @@ function WorkCard({ project }) {
             </a>
           </Card.Title>
           <Card.Text>
-            <a href={project?.git} target="_blank">
+            <a href={project?.git} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
                 icon={faGithub}
                 className="icon icon-20 text-primary"
