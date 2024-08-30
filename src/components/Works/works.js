@@ -6,11 +6,18 @@ import "./works.css";
 function Works() {
   const projects = [
     {
+      title: "Carbon Copy",
+      git: "https://github.com/NeslynChellaiah/carbon-copy",
+      demo: "https://neslynchellaiah.github.io/carbon-copy/",
+      id: "carbon_copy",
+      img: "carbon_copy",
+    },
+    {
       title: "Insta UI Clone",
-      git: "",
+      git: "https://github.com/NeslynChellaiah/instaPostUi",
       demo: "https://neslynchellaiah.github.io/instaPostUi/",
       id: "insta_ui_clone",
-      img: "",
+      img: "insta_ui_clone",
     },
   ];
   return (

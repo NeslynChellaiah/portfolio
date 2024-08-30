@@ -1,15 +1,32 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import "./work-card.css";
 
 function WorkCard({ project }) {
   return (
     <Col key={Math.random}>
       <Card className="bg-primary mb-4">
-        <Card.Img variant="top" src="works/insta_ui_clone.png" />
+        <Card.Img variant="top" src={`works/${project?.img}.png`} />
         <Card.Body>
-          <Card.Title className="text-primary">{project.title}</Card.Title>
+          <Card.Title className="text-primary title">
+            {(project?.title || "") + " "}
+            <a href={project?.demo} target="_blank">
+              <FontAwesomeIcon
+                icon={faArrowUpRightFromSquare}
+                className="icon text-primary"
+              />
+            </a>
+          </Card.Title>
           <Card.Text>
-            <span>Github</span> | <span>Demo</span>
+            <a href={project?.git} target="_blank">
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="icon icon-20 text-primary"
+              />
+            </a>
           </Card.Text>
         </Card.Body>
       </Card>
