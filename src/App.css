@@ -40,3 +40,12 @@
 .main-container > section {
   scroll-snap-align: start;
 }
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
