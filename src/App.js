@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar";
-import Me from "./components/me";
+import Me from "./components/Me/me";
+import Works from "./components/Works/works";
 import "./App.css";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className="position-relative main-container">
       <Navbar />
       <Me />
-      <section className="min-vh-100 bg-secondary p-5" id="works"></section>
+      <Works />
       <section className="min-vh-100 bg-primary p-5" id="contact"></section>
     </div>
   );
