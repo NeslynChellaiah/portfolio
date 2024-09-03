@@ -1,7 +1,8 @@
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar/navbar";
 import Me from "./components/Me/me";
 import Works from "./components/Works/works";
 import "./App.css";
+import Contact from "./components/Contact/contact";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Navbar />
       <Me />
       <Works />
-      <section className="min-vh-100 bg-primary p-5" id="contact"></section>
+      <Contact />
     </div>
   );
 }
