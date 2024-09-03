@@ -28,7 +28,7 @@ function Works() {
       <div className="my-works-height overflow-auto scroll-hide">
         <Row xs={1} sm={2} md={3} lg={4}>
           {projects.map((project, index) => (
-            <WorkCard project={project} />
+            <WorkCard key={project.id} project={project} />
           ))}
         </Row>
       </div>
