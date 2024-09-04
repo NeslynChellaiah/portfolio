@@ -16,6 +16,7 @@ function Contact() {
           <a
             href="https://www.linkedin.com/in/neslyn-chellaiah-p/"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon
               icon={faLinkedinIn}
