@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Experience as ExperienceType } from '../types';
 import { Section } from './Section';
+import { Logo } from './Logo';
 
 interface ExperienceProps {
     data: ExperienceType[];
@@ -14,11 +15,7 @@ export const Experience: React.FC<ExperienceProps> = ({ data }) => {
                     <div key={index} className="flex flex-col sm:flex-row justify-between items-start sm:items-center p-4 bg-white shadow-sm rounded-lg hover:shadow-md transition-shadow">
                         <div className="flex items-center gap-4">
                             {job.logo ? (
-                                <img
-                                    src={job.logo}
-                                    alt={`${job.company} logo`}
-                                    className="w-12 h-12 object-cover border border-gray-100"
-                                />
+                                <Logo logo={job.logo} organization={job.company} />
                             ) : (
                                 <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center text-gray-500 font-bold text-xl shrink-0">
                                     {job.company.charAt(0)}

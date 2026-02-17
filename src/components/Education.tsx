@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Education as EducationType } from '../types';
 import { Section } from './Section';
+import { Logo } from './Logo';
 
 interface EducationProps {
     data: EducationType[];
@@ -14,11 +15,7 @@ export const Education: React.FC<EducationProps> = ({ data }) => {
                     <div key={index} className="flex flex-col md:flex-row justify-between items-start md:items-center p-4 bg-white shadow-sm rounded-lg hover:shadow-md transition-shadow">
                         <div className="flex items-center gap-4">
                             {edu.logo ? (
-                                <img
-                                    src={edu.logo}
-                                    alt={`${edu.institution} logo`}
-                                    className="w-12 h-12 object-cover border border-gray-100"
-                                />
+                                <Logo logo={edu.logo} organization={edu.institution} />
                             ) : (
                                 <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold text-lg shrink-0">
                                     {edu.institution.charAt(0)}
