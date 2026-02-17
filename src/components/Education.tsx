@@ -24,14 +24,14 @@ export const Education: React.FC<EducationProps> = ({ data }) => {
                             <div>
                                 <h3 className="text-lg font-bold text-gray-900">{edu.institution}</h3>
                                 <p className="text-gray-600">{edu.degree}</p>
+                                <div className="mt-0">
+                                    <span className="font-mono text-sm text-gray-500">
+                                        {edu.endDate}
+                                    </span>
+                                </div>
                             </div>
                         </div>
 
-                        <div className="mt-2 md:mt-0">
-                            <span className="font-mono text-sm text-gray-500">
-                                {edu.endDate}
-                            </span>
-                        </div>
                     </div>
                 ))}
             </div>
