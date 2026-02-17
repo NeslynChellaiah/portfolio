@@ -30,6 +30,7 @@ export interface Project {
     link?: string;
     github?: string;
     logo?: string; // Placeholder
+    type: string;
 }
 
 export interface Resume {

@@ -17,7 +17,7 @@ export const Education: React.FC<EducationProps> = ({ data }) => {
                                 <img
                                     src={edu.logo}
                                     alt={`${edu.institution} logo`}
-                                    className="w-12 h-12 rounded-full object-cover border border-gray-100"
+                                    className="w-12 h-12 object-cover border border-gray-100"
                                 />
                             ) : (
                                 <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold text-lg shrink-0">
