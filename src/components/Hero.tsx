@@ -16,7 +16,7 @@ export const Hero: React.FC<HeroProps> = ({ data }) => {
             </p>
             <div className="max-w-2xl mx-auto mb-8">
                 <p className="text-lg text-gray-400 leading-relaxed">
-                    {data.summary}
+                    {data.intro}
                 </p>
             </div>
 

@@ -3,7 +3,8 @@ import type { Resume } from '../types';
 export const resumeData: Resume = {
     name: "Neslyn Chellaiah Pious Maria Jose",
     title: "Master’s Graduate | Software Engineer",
-    summary: "Master’s graduate with 4+ years of software development experience, passionate about modern web technologies and building scalable applications.",
+    intro: "Turning ideas into reliable, user-focused software products that scale.",
+    summary: "Full-stack software developer with 4+ years of experience building scalable, high-performance web applications in both startup and enterprise environments. I specialize in delivering end-to-end solutions, from responsive user interfaces to robust back-end systems, while improving development workflows and product performance.",
     contact: {
         email: "neslyn@dal.ca",
         phone: "902-580-2806",
@@ -119,7 +120,7 @@ export const resumeData: Resume = {
             ],
             technologies: ["React", "CSS3", "HTML5", "Animation"],
             link: "https://neslynchellaiah.github.io/instaPostUi/",
-            type: "User Interface",
+            type: "UI",
             github: "https://github.com/NeslynChellaiah/instaPostUi"
         }
     ],

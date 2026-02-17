@@ -36,6 +36,7 @@ export interface Project {
 export interface Resume {
     name: string;
     title: string;
+    intro: string;
     summary: string;
     contact: {
         email: string;
