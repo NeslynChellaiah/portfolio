@@ -79,7 +79,8 @@ export const resumeData: Resume = {
             ],
             technologies: ["Node.js", "VSCE", "Gemini AI", "Rest API", "TypeScript", "Jasmine", "Karma"],
             link: "https://marketplace.visualstudio.com/items?itemName=NeslynChellaiahPiousMariaJose.document-functions",
-            type: "Extension"
+            type: "Extension",
+            github: "https://github.com/NeslynChellaiah/document-functions"
         },
         {
             name: "Take Me There",
@@ -88,7 +89,8 @@ export const resumeData: Resume = {
             ],
             technologies: ["React Native", "Node.js", "Tailwind CSS", "Firestore", "MongoDB", "Figma", "Heroku"],
             link: "https://github.com/NeslynChellaiah/Take-Me-There",
-            type: "Mobile App"
+            type: "Mobile App",
+            github: "https://github.com/NeslynChellaiah/Take-Me-There"
         },
         {
             name: "Dine Connect",
@@ -96,8 +98,29 @@ export const resumeData: Resume = {
                 "A restaurant search and reservation app to reduce wait times and improve customer experience."
             ],
             technologies: ["React", "Spring Boot", "TypeScript", "Java", "Tailwind CSS", "Firestore", "MongoDB", "Figma", "Heroku"],
-            link: "https://github.com/NeslynChellaiah/csci_5709_frontend?tab=readme-ov-file",
-            type: "Web App"
+            link: "https://dineconnect.netlify.app/login",
+            type: "Web App",
+            github: "https://github.com/NeslynChellaiah/csci_5709_frontend"
+        },
+        {
+            name: "Carbon Copy",
+            description: [
+                "A tool for creating beautiful images of your code snippets."
+            ],
+            technologies: ["React", "CodeMirror", "PrismJS", "HTML to Image", "CSS3"],
+            link: "https://NeslynChellaiah.github.io/carbon-copy",
+            type: "Web App",
+            github: "https://github.com/NeslynChellaiah/carbon-copy"
+        },
+        {
+            name: "Instagram Feed UI",
+            description: [
+                "An Instagram feed user interface clone."
+            ],
+            technologies: ["React", "CSS3", "HTML5", "Animation"],
+            link: "https://neslynchellaiah.github.io/instaPostUi/",
+            type: "User Interface",
+            github: "https://github.com/NeslynChellaiah/instaPostUi"
         }
     ],
     skills: {
