@@ -61,7 +61,7 @@ export const resumeData: Resume = {
             degree: "Master of Applied Computer Science",
             startDate: "",
             endDate: "Apr 2026",
-            logo: './logos/dal.jpeg'
+            logo: './logos/dal.jpg'
         },
         {
             institution: "Sathyabama Institute of Science and Technology",
@@ -78,7 +78,8 @@ export const resumeData: Resume = {
                 "A VS Code extension used to auto-generate documentation for functions, reducing manual effort."
             ],
             technologies: ["Node.js", "VSCE", "Gemini AI", "Rest API", "TypeScript", "Jasmine", "Karma"],
-            link: "https://marketplace.visualstudio.com/items?itemName=NeslynChellaiahPiousMariaJose.document-functions"
+            link: "https://marketplace.visualstudio.com/items?itemName=NeslynChellaiahPiousMariaJose.document-functions",
+            type: "Extension"
         },
         {
             name: "Take Me There",
@@ -86,7 +87,17 @@ export const resumeData: Resume = {
                 "A cab-booking automation app to reduce multi-app ride search time."
             ],
             technologies: ["React Native", "Node.js", "Tailwind CSS", "Firestore", "MongoDB", "Figma", "Heroku"],
-            link: "https://github.com/NeslynChellaiah/Take-Me-There"
+            link: "https://github.com/NeslynChellaiah/Take-Me-There",
+            type: "Mobile App"
+        },
+        {
+            name: "Dine Connect",
+            description: [
+                "A restaurant search and reservation app to reduce wait times and improve customer experience."
+            ],
+            technologies: ["React", "Spring Boot", "TypeScript", "Java", "Tailwind CSS", "Firestore", "MongoDB", "Figma", "Heroku"],
+            link: "https://github.com/NeslynChellaiah/csci_5709_frontend?tab=readme-ov-file",
+            type: "Web App"
         }
     ],
     skills: {

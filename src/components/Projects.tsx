@@ -17,10 +17,13 @@ export const Projects: React.FC<ProjectsProps> = ({ data }) => {
                         className={`group relative bg-white border border-gray-100 p-6 rounded-xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden ${project.link ? 'cursor-pointer' : ''}`}
                     >
                         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-teal-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                        <div className="flex justify-between items-start mb-4 mt-2">
+                        <div className="flex justify-between items-center mb-4 mt-2">
                             <h3 className="text-xl font-bold text-gray-900 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-teal-500 transition-colors">
                                 {project.name}
                             </h3>
+                            <span className="px-3 py-1 bg-white border border-gray-200 shadow-sm rounded-full text-sm text-gray-700 cursor-default">
+                                {project.type}
+                            </span>
                         </div>
 
                         <p className="text-gray-600 mb-4 line-clamp-3">
