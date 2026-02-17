@@ -12,8 +12,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.svg', 'logos/**/*', 'resume.pdf'],
       manifest: {
-        name: 'Neslyn Chellaiah - Portfolio',
-        short_name: 'Neslyn Portfolio',
+        name: 'Neslyn',
+        short_name: 'Neslyn',
         description: 'Full-stack software developer with 4+ years of experience building scalable web applications',
         theme_color: '#1f2937',
         background_color: '#1f2937',
