@@ -13,9 +13,17 @@ export const Education: React.FC<EducationProps> = ({ data }) => {
                 {data.map((edu, index) => (
                     <div key={index} className="flex flex-col md:flex-row justify-between items-start md:items-center p-4 bg-white shadow-sm rounded-lg hover:shadow-md transition-shadow">
                         <div className="flex items-center gap-4">
-                            <div className="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold text-lg shrink-0">
-                                {edu.institution.charAt(0)}
-                            </div>
+                            {edu.logo ? (
+                                <img
+                                    src={edu.logo}
+                                    alt={`${edu.institution} logo`}
+                                    className="w-12 h-12 rounded-full object-cover border border-gray-100"
+                                />
+                            ) : (
+                                <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold text-lg shrink-0">
+                                    {edu.institution.charAt(0)}
+                                </div>
+                            )}
                             <div>
                                 <h3 className="text-lg font-bold text-gray-900">{edu.institution}</h3>
                                 <p className="text-gray-600">{edu.degree}</p>
