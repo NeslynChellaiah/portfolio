@@ -24,7 +24,8 @@ export const resumeData: Resume = {
             location: "Vancouver, BC",
             startDate: "Sep 2025",
             endDate: "Present",
-            description: []
+            description: [],
+            logo: './logos/sap.jpg'
         },
         {
             company: "Leadrat",
@@ -32,7 +33,8 @@ export const resumeData: Resume = {
             location: "Remote", // Inferring remote or check later if location specified in resume. Resume says Jun 2023 -- Jul 2024. Location not explicitly in snippet but previously TendersCuts was Chennai? Assuming Remote or specific city not listed in resume snippet properly. Wait, snippet says "Vancouver, BC | Sep 2025", Leadrat has no location. I'll leave empty or generic.
             startDate: "Jun 2023",
             endDate: "Jul 2024",
-            description: []
+            description: [],
+            logo: './logos/leadrat.png'
         },
         {
             company: "TenderCuts",
@@ -40,7 +42,8 @@ export const resumeData: Resume = {
             location: "India",
             startDate: "Apr 2022",
             endDate: "Jun 2023",
-            description: []
+            description: [],
+            logo: './logos/tendercuts.avif'
         },
         {
             company: "Oracle",
@@ -48,7 +51,8 @@ export const resumeData: Resume = {
             location: "India",
             startDate: "Sep 2020",
             endDate: "Apr 2022",
-            description: []
+            description: [],
+            logo: './logos/oracle.png'
         }
     ],
     education: [
@@ -56,13 +60,15 @@ export const resumeData: Resume = {
             institution: "Dalhousie University",
             degree: "Master of Applied Computer Science",
             startDate: "",
-            endDate: "Apr 2026"
+            endDate: "Apr 2026",
+            logo: './logos/dal.jpeg'
         },
         {
             institution: "Sathyabama Institute of Science and Technology",
             degree: "BE in Computer Science & Engineering",
             startDate: "",
-            endDate: "Jun 2020"
+            endDate: "Jun 2020",
+            logo: './logos/sist.jpg'
         }
     ],
     projects: [
