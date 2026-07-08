@@ -6,7 +6,7 @@ export const resumeData: Resume = {
     intro: "Turning ideas into reliable, user-focused software products that scale.",
     summary: "Full-stack software developer with 4+ years of experience building scalable, high-performance web applications in both startup and enterprise environments. I specialize in delivering end-to-end solutions, from responsive user interfaces to robust back-end systems, while improving development workflows and product performance.",
     contact: {
-        email: "neslyn@dal.ca",
+        email: "neslynchellaiah@gmail.com",
         phone: "902-580-2806",
         location: "Halifax, NS",
         social: [
